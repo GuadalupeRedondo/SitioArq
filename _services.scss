@@ -1,0 +1,65 @@
+.services{
+    height: 400px;
+    background-color:rgb(8, 68, 92);    
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    .container2{
+        height: 100%;
+        width: 60%;
+        align-content: center;
+        h2{
+            margin-top:5%;
+            text-align:center;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size:18px;
+            color:rgb(224, 224, 207);
+        }
+        .items{
+            height:60%;
+            margin-top: 5%;
+            display: grid;
+            grid-template-areas: "service1 service2 service3";
+            grid-template-columns: repeat(3,1fr);
+            .item{
+                border: 1px solid rgb(189, 189, 189) ;
+                padding:5px;
+                margin:10px;
+                h3{
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    color: rgb(224, 224, 207);
+                    text-align: center;
+                    margin:25px;
+                }
+                p{
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    margin:20px;
+                    color: rgb(224, 224, 207);
+                    text-align: center;
+                }
+            }
+            .item:hover{
+                background-color:rgb(224, 224, 207);
+                p{
+                    color:rgb(8, 68, 92); 
+                }
+                h3{
+                    color:rgb(8, 68, 92); 
+                }
+            }
+            .item1{
+                grid-area: "service1";
+            }
+            .item2{
+                grid-area: "service2";
+            }
+            .item3{
+                grid-area: "service3"
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.home{
+    height: 600px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/img1.png);
+    background-size: cover;
+    background-position: center;
+    display:inline-block;
+    nav{
+        li{
+            display:inline-block;
+            list-style: none;
+            font-size:13px;
+            font-family:'Raleway', sans-serif;
+            margin: 8px;
+            a{
+                text-decoration:none;
+                color:rgb(255, 255, 255);
+                padding:10px;    
+            }
+        }   
+    }
+    .text{
+        padding:250px;
+        h1{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size:35px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            margin: 8px;
+        }
+        h2{
+            font-size:15px;
+            text-align: center;
+            color: white;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+    }
+
+}
